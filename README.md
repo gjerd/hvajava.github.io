@@ -2,7 +2,6 @@
 
 ```
 $ git clone https://github.com/hvajava/hvajava.github.io.git
-$ cd hvajava.github.io.git/bake
 $ jbake -b . site
 ```
 
