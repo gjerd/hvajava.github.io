@@ -2,13 +2,14 @@
 
 ```
 $ git clone https://github.com/hvajava/hvajava.github.io.git
-$ jbake -b . site
+$ cd hvajava.github.io.git/bake
+$ jbake -b . docs
 ```
 
 ... and you can run and test it with:
 
 ```
-$ jbake -b -s . site
+$ jbake -b -s . docs
 $ "your browser" http://localhost:8820
 ```
 
