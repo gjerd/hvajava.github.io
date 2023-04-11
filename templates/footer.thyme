@@ -1,0 +1,59 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+		<div th:fragment="footer">
+		    <div id="push"></div>
+		    <!--div id="footer">
+		      <div class="container">
+		        <p class="muted credit">&copy; 2023 | Baked with <a href="http://jbake.org">JBake <span th:text='${version}'>version</span></a></p>
+		      </div>
+		    </div-->
+	    
+		    <!-- Le javascript
+		    ================================================== -->
+		    <!-- Placed at the end of the document so the pages load faster -->
+		    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/jquery-1.11.1.min.js'"></script>
+		    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'js/prism.js'"></script>
+		    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'menu/js/classie.js'"></script>
+		    <script th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:src="${rootpath} + 'menu/js/clipboard.min.js'"></script>
+
+    		<script>
+    		(function() {
+    			[].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
+    				var menuItems = menu.querySelectorAll('.menu__link'),
+    					setCurrent = function(ev) {
+    						ev.preventDefault();
+
+    						var item = ev.target.parentNode; // li
+
+    						// return if already current
+    						if (classie.has(item, 'menu__item--current')) {
+    							return false;
+    						}
+    						// remove current
+    						classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current');
+    						// set current
+    						classie.add(item, 'menu__item--current');
+    					};
+
+    				[].slice.call(menuItems).forEach(function(el) {
+    					el.addEventListener('click', setCurrent);
+    				});
+    			});
+
+    			[].slice.call(document.querySelectorAll('.link-copy')).forEach(function(link) {
+    				link.setAttribute('data-clipboard-text', location.protocol + '//' + location.host + location.pathname + '#' + link.parentNode.id);
+    				new Clipboard(link);
+    				link.addEventListener('click', function() {
+    					classie.add(link, 'link-copy--animate');
+    					setTimeout(function() {
+    						classie.remove(link, 'link-copy--animate');
+    					}, 300);
+    				});
+    			});
+    		})(window);
+    		</script>
+
+    	</div>
+  	</body>
+</html>
