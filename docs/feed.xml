@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JBake</title>
-    <link>http://javacentric.org</link>
-    <atom:link href="http://javacentric.org/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:8820/</link>
+    <atom:link href="http://localhost:8820//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Tue, 11 Apr 2023 02:06:31 +0200</pubDate>
-    <lastBuildDate>Tue, 11 Apr 2023 02:06:31 +0200</lastBuildDate>
+    <pubDate>Tue, 11 Apr 2023 02:41:22 +0200</pubDate>
+    <lastBuildDate>Tue, 11 Apr 2023 02:41:22 +0200</lastBuildDate>
 
     <item>
       <title>Darcula with prism.js</title>
-      <link>http://javacentric.org/darcula.html</link>
+      <link>http://localhost:8820//darcula.html</link>
       <pubDate>Sun, 9 Apr 2023 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">darcula.html</guid>
       <description>
@@ -159,7 +159,7 @@ libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.&amp;lt;/p&amp;g
 </description>	  
     </item><item>
       <title>Fourth Post</title>
-      <link>http://javacentric.org/blog/2023/fourth-post.html</link>
+      <link>http://localhost:8820//blog/2023/fourth-post.html</link>
       <pubDate>Thu, 17 Oct 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2023/fourth-post.html</guid>
       <description>&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
@@ -176,7 +176,7 @@ libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.&amp;lt;/p&amp;g
 &amp;lt;/div&amp;gt;</description>	  
     </item><item>
       <title>Third Post</title>
-      <link>http://javacentric.org/blog/2023/third-post.html</link>
+      <link>http://localhost:8820//blog/2023/third-post.html</link>
       <pubDate>Thu, 26 Sep 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2023/third-post.html</guid>
       <description>&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
@@ -193,7 +193,7 @@ libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.&amp;lt;/p&amp;g
 &amp;lt;/div&amp;gt;</description>	  
     </item><item>
       <title>Second Post</title>
-      <link>http://javacentric.org/blog/2023/second-post.html</link>
+      <link>http://localhost:8820//blog/2023/second-post.html</link>
       <pubDate>Sun, 25 Aug 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2023/second-post.html</guid>
       <description>&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.&amp;lt;/p&amp;gt;
@@ -211,7 +211,7 @@ libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.&amp;lt;/p&amp;g
 </description>	  
     </item><item>
       <title>First Post</title>
-      <link>http://javacentric.org/blog/2023/first-post.html</link>
+      <link>http://localhost:8820//blog/2023/first-post.html</link>
       <pubDate>Wed, 24 Jul 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2023/first-post.html</guid>
       <description>
