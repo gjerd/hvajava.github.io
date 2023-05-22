@@ -16,3 +16,7 @@ $ "your browser" http://localhost:8820
 ... do your changes until satisfied and:
 ... and just commit the changes to the repo.
 
+```
+$ cp -r WEB-INF docs && cd docs && zip -r ../pages.war . && cd ..
+$ Deploy the war at your favourite application server
+```
