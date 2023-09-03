@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	    <meta charset="utf-8"/>
+	    <title>Javacentric.org</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	    <meta name="description" content=""/>
+	    <meta name="author" content=""/>
+	    <meta name="keywords" content=""/>
+	    <meta name="generator" content="JBake"/>
+
+	    <link href="css/asciidoctor.css" rel="stylesheet"/>
+	    <link href="css/normalize.css" rel="stylesheet"/>
+	    <link href="css/skeleton.css" rel="stylesheet"/>
+	    <link href="css/base.css" rel="stylesheet"/>
+	    <link href="css/darcula.css" rel="stylesheet"/>
+		<link href="menu/css/component.css" rel="stylesheet"/>
+
+	    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	    <!--[if lt IE 9]>
+	      <script src="js/html5shiv.min.js"></script>
+	    <![endif]-->
+
+	    <!-- Fav and touch icons -->
+	    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png"/>
+	    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png"/>
+	    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png"/>
+	    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png"/>-->
+	    <link rel="shortcut icon" href="favicon.ico"/>
+
+	           <script>
+
+                function ref(event, id) {
+
+                    //event.preventDefault();
+                    // do your thing here
+
+                    sessionStorage.setItem("selectionId", id);
+
+                    window.location.href = event.currentTarget.href;
+
+                }
+
+                function selectionIdLoader() {
+                    let previousSelectionId = sessionStorage.getItem("selectionId")
+
+                    alert(previousSelectionId);
+
+                    for (const li of document.querySelectorAll('.menu--juliet>ul>li')) {
+                        if(li.id == previousSessionId) {
+                            li.class = "menu__item menu__item--current";
+                        }
+                    }
+                }
+
+
+                </script>
+
+	</head>
+    <div id="wrap">
+    	<div>
+			<section class="section section--menu" id="juliet">
+				<span class="link-copy"></span>
+				<nav class="menu menu--juliet">
+					<ul class="menu__list">
+						<!--li id="0" class="menu__item">
+						    <a onClick="ref(event, 1)" href="/#" class="menu__link">home</a>
+						</li-->
+						<li id="1" class="menu__item">
+							<a onClick="ref(event, 2)" href="about.html" class="menu__link">about</a>
+						</li>
+						<li id="2" class="menu__item">
+						    <a onClick="ref(event, 3)" href="blog.html" class="menu__link">blog</a>
+						</li>
+						<li id="3" class="menu__item">
+						    <a onClick="ref(event, 4)" href="projects.html" class="menu__link">projects</a>
+						</li>
+						<li id="4" class="menu__item">
+						    <a onClick="ref(event, 5)" href="feed.xml" class="menu__link">subscribe</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+  </div>
+		<div class="container">
+			<div class="page-header">
+				<h1>Blog Archive</h1>
+			</div>
+	
+			
+				
+					<h3>April 2023</h3>
+
+					<h4>
+						<span class="font-weight-bold">09</span> -
+						<a href="darcula.html">Darcula with prism.js</a>
+					</h4>
+
+					
+						
+							
+								<p></p>
+								<h3>October 2013</h3>
+							
+
+							<h4>
+								<span class="font-weight-bold">17</span> -
+								<a href="blog/2023/fourth-post.html">Fourth Post</a>
+							</h4>
+						
+					
+						
+							
+								<p></p>
+								<h3>September 2013</h3>
+							
+
+							<h4>
+								<span class="font-weight-bold">26</span> -
+								<a href="blog/2023/third-post.html">Third Post</a>
+							</h4>
+						
+					
+						
+							
+								<p></p>
+								<h3>August 2013</h3>
+							
+
+							<h4>
+								<span class="font-weight-bold">25</span> -
+								<a href="blog/2023/second-post.html">Second Post</a>
+							</h4>
+						
+					
+						
+							
+								<p></p>
+								<h3>July 2013</h3>
+							
+
+							<h4>
+								<span class="font-weight-bold">24</span> -
+								<a href="blog/2023/first-post.html">First Post</a>
+							</h4>
+						
+					
+				
+			
+
+		</div>
+	</div>
+	
+	<div>
+		    <footer>
+		        <p>&copy; 2023 | Baked with <a href="http://jbake.org">JBake <span>v2.6.7</span></a></p>
+		    </footer>
+
+		    <!-- Le javascript
+		    ================================================== -->
+		    <!-- Placed at the end of the document so the pages load faster -->
+		    <script src="js/jquery-1.11.1.min.js"></script>
+		    <script src="js/prism.js"></script>
+		    <script src="menu/js/classie.js"></script>
+		    <script src="menu/js/clipboard.min.js"></script>
+
+    		<script>
+    		(function() {
+    			[].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
+    				var menuItems = menu.querySelectorAll('.menu__link'),
+    					setCurrent = function(ev) {
+    						ev.preventDefault();
+
+    						var item = ev.target.parentNode; // li
+
+    						// return if already current
+    						if (classie.has(item, 'menu__item--current')) {
+    							return false;
+    						}
+    						// remove current
+    						classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current');
+    						// set current
+    						classie.add(item, 'menu__item--current');
+    					};
+
+    				[].slice.call(menuItems).forEach(function(el) {
+    					el.addEventListener('click', setCurrent);
+    				});
+    			});
+
+    			[].slice.call(document.querySelectorAll('.link-copy')).forEach(function(link) {
+    				link.setAttribute('data-clipboard-text', location.protocol + '//' + location.host + location.pathname + '#' + link.parentNode.id);
+    				new Clipboard(link);
+    				link.addEventListener('click', function() {
+    					classie.add(link, 'link-copy--animate');
+    					setTimeout(function() {
+    						classie.remove(link, 'link-copy--animate');
+    					}, 300);
+    				});
+    			});
+    		})(window);
+    		</script>
+
+    	</div>
+    </body>
+</html>

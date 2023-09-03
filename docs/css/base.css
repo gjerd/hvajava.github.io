@@ -1,0 +1,71 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    background-color: #2b2b2b;
+    color: #a3b7c6;
+    font-family: sans-serif;
+    display: table;
+    margin: auto;
+}
+
+body {
+    background-color: #2b2b2b;
+    margin: 0 auto;
+    line-height: 1.7;
+    color: #cccccc;
+    border-style: solid;
+    border-color: #2c2c2c;
+
+    display: table-cell;
+    vertical-align: middle;
+
+    overflow-y: scroll;
+}
+
+/* Wrapper for page content to push down footer */
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+
+footer {
+  background-color: transparent;
+  bottom: 0;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 160px;
+  margin-bottom: 160px;
+  text-align: center;
+}
+
+.container .credit {
+  margin: 20px 0;
+}
+
+code {
+  border: 0px solid;
+}
+
+.top-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.content {
+  padding: 10px;
+}
+
