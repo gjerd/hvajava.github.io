@@ -40,15 +40,15 @@ body {
 }
 
 /* Set the fixed height of the footer here */
-#push,
+
 #footer {
-  position: absolute;
+  position: overflow;
+  left: 0;
   bottom: 0;
-  height: 2.5rem;            /* Footer height */
-}
-#footer {
-  background-color: #2b2b2b;
-  padding: 0;
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+  height: 199px;
 }
 
 /* Custom page CSS

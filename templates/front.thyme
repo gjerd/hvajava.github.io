@@ -22,7 +22,5 @@
 	</style>
 
 	<a id="biglink" href='blog.html' th:utext='${content.body}'></a>
-
-    <div th:replace="footer.thyme::footer"></div>
 </body>
 </html>

@@ -2,12 +2,10 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 		<div th:fragment="footer">
-		    <div id="push"></div>
-		    <!--div id="footer">
-		      <div class="container">
-		        <p class="muted credit">&copy; 2023 | Baked with <a href="http://jbake.org">JBake <span th:text='${version}'>version</span></a></p>
-		      </div>
-		    </div-->
+		    <div id="footer">
+		        <p id="wrap"></p>
+		        <p>&copy; 2023 | Baked with <a href="http://jbake.org">JBake <span th:text='${version}'>version</span></a></p>
+		    </div>
 	    
 		    <!-- Le javascript
 		    ================================================== -->

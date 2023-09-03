@@ -7,19 +7,19 @@
 				<span class="link-copy"></span>
 				<nav class="menu menu--juliet">
 					<ul class="menu__list">
-						<li id="1" class="menu__item">
+						<!--li id="0" class="menu__item">
 						    <a onClick="ref(event, 1)" href="/#" class="menu__link">home</a>
-						</li>
-						<li id="2" class="menu__item">
+						</li-->
+						<li id="1" class="menu__item">
 							<a onClick="ref(event, 2)" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'about.html'" class="menu__link">about</a>
 						</li>
-						<li id="3" class="menu__item">
+						<li id="2" class="menu__item">
 						    <a onClick="ref(event, 3)" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'blog.html'" class="menu__link">blog</a>
 						</li>
-						<li id="4" class="menu__item">
+						<li id="3" class="menu__item">
 						    <a onClick="ref(event, 4)" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+'projects.html'" class="menu__link">projects</a>
 						</li>
-						<li id="5" class="menu__item">
+						<li id="4" class="menu__item">
 						    <a onClick="ref(event, 5)" th:with="rootpath=(${content.rootpath != null} ? ${content.rootpath} : '')" th:href="${rootpath}+${config.feed_file}" class="menu__link">subscribe</a>
 						</li>
 					</ul>
