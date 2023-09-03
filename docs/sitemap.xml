@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://javacentric.org/about.html</loc>
+        <loc>http://localhost:8820//about.html</loc>
         <lastmod>2023-09-03</lastmod>
     </url><url>
-        <loc>https://javacentric.org/darcula.html</loc>
+        <loc>http://localhost:8820//darcula.html</loc>
         <lastmod>2023-04-09</lastmod>
     </url><url>
-        <loc>https://javacentric.org/blog/2023/fourth-post.html</loc>
+        <loc>http://localhost:8820//blog/2023/fourth-post.html</loc>
         <lastmod>2013-10-17</lastmod>
     </url><url>
-        <loc>https://javacentric.org/blog/2023/third-post.html</loc>
+        <loc>http://localhost:8820//blog/2023/third-post.html</loc>
         <lastmod>2013-09-26</lastmod>
     </url><url>
-        <loc>https://javacentric.org/blog/2023/second-post.html</loc>
+        <loc>http://localhost:8820//blog/2023/second-post.html</loc>
         <lastmod>2013-08-25</lastmod>
     </url><url>
-        <loc>https://javacentric.org/blog/2023/first-post.html</loc>
+        <loc>http://localhost:8820//blog/2023/first-post.html</loc>
         <lastmod>2013-07-24</lastmod>
     </url><url>
-        <loc>https://javacentric.org/index.html</loc>
+        <loc>http://localhost:8820//index.html</loc>
         <lastmod>2023-04-09</lastmod>
     </url><url>
-        <loc>https://javacentric.org/blog.html</loc>
+        <loc>http://localhost:8820//blog.html</loc>
         <lastmod>2023-04-09</lastmod>
     </url><url>
-        <loc>https://javacentric.org/projects/2023/1.html</loc>
+        <loc>http://localhost:8820//projects/2023/1.html</loc>
         <lastmod>2023-04-10</lastmod>
     </url><url>
-        <loc>https://javacentric.org/projects.html</loc>
+        <loc>http://localhost:8820//projects.html</loc>
         <lastmod>2023-04-09</lastmod>
     </url>
 </urlset>
