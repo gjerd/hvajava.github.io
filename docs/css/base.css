@@ -22,6 +22,7 @@ body {
 
     overflow-y: scroll;
     zoom: 200%;
+    width: 100%;
 }
 
 /* Wrapper for page content to push down footer */
