@@ -1,0 +1,30 @@
+---
+permalink: /404.html
+---
+
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="header.thyme::head"/>
+<body>
+	<style>
+		html, body {
+		    height: 100%;
+		    background-color: #4a4a4a;
+		    border: 0px;
+		    padding: 0px;
+		}
+
+		html {
+		    display: table;
+		    margin: auto;
+		}
+
+		body {
+		    display: table-cell;
+		    vertical-align: middle;
+		}
+	</style>
+
+	<a id="biglink" href='blog.html' th:utext='${content.body}'></a>
+</body>
+</html>
