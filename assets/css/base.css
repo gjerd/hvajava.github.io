@@ -5,6 +5,7 @@ html {
     background-color: #2b2b2b;
     color: #a3b7c6;
     font-family: sans-serif;
+    font-size: 10px;
     display: table;
     margin: auto;
 }
@@ -47,7 +48,6 @@ footer {
   background-color: transparent;
   bottom: 0;
   width: 100%;
-  font-size: 16px;
   margin-top: 160px;
   margin-bottom: 160px;
   text-align: center;
