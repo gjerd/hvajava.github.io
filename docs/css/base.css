@@ -21,7 +21,8 @@ body {
     vertical-align: middle;
 
     overflow-y: scroll;
-    zoom: 200%;
+    zoom: 100%;
+    width: 100%;
 }
 
 /* Wrapper for page content to push down footer */
