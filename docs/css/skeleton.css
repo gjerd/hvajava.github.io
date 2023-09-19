@@ -126,8 +126,7 @@ body {
   /*font-family: "'Iosevka Nerd Font', Arial, Verdana, 'Helvetica', 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif";
   font: 12px 'Iosevka Nerd Font';*/
 
-  font: 9px 'JetBrainsMono Nerd Font'
-  font-family: "'JetBrainsMono Nerd Font', Arial, Verdana, 'Helvetica', 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif, monospace";
+  font-family: "Arial, Verdana, 'Helvetica', 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif";
   line-height: 1.6;
   font-weight: 400;
   color: #222; }
