@@ -21,6 +21,7 @@ body {
     vertical-align: middle;
 
     overflow-y: scroll;
+    width: 100%;
     zoom: 200%;
 }
 
